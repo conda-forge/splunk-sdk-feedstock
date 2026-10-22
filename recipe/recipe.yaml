@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: "3.0.0"
+  version: "3.0.1"
   # splunk-sdk requires python >=3.13, which is newer than conda-forge's
   # currently supported minimum python version.
   python_min: "3.13"
@@ -13,7 +13,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/s/splunk-sdk/splunk_sdk-${{ version }}.tar.gz
-  sha256: 9e2c0be4ada75c6cb536c3add636fe634d31b670c141f2a59dcf8d623753e192
+  sha256: e4077ea6bf5c5ffbe8f28c488041123c72b59095de5eabaeedd3af5022cb4d5d
 
 build:
   number: 0
